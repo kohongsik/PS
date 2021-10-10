@@ -5,12 +5,12 @@ import java.io.*;
 
 public class PROB1238 {
     static int N, M, X;
+    static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+    static StringTokenizer st;
     static List<int[]> list[] = new ArrayList[1001];
     static List<int[]> reverse[] = new ArrayList[1001];
     static int[] store = new int[1001];
     static int[] storeReverse = new int[1001];
-    static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-    static StringTokenizer st;
     static final int INF = Integer.MAX_VALUE;
     static int ans = 0;
     public static void main(String[] args) throws IOException {
